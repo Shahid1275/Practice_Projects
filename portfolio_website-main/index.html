@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3d4210bcb4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+             <div class="container">
+                <nav>
+                    <img src="/images/_519268b4-6d40-40a4-88b0-147e0149a187-removebg-preview.png" class="logo">
+                    <ul id="sidemenu">
+                        <li> <a href="#header">Home</a></li>
+                        <li> <a href="#about">About</a></li>
+                        <li> <a href="#services">Services</a></li>
+                        <li> <a href="#Portfolio">Portfolio</a></li>
+                        <li> <a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+            
+                    <p >UI/UX Designer</p>
+                    <h1 >Hi, I'm <span>Shahid</span><br> From Pakistan</h1>
+                    
+                </div>
+                
+             </div>
+    </div>
+    <!-- ---------------------------about section------------------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/youth-lying-on-bed-using-laptop (1).jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                      
+                    <p> Hi I'm a Inquisitive, energetic and dynamic software engineer with strong and analytical
+                        skills and cross platform coding experience. Having good technical, problem solving
+                        and communication skills</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link "onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links "onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links "onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Development</span><br>Building Web applications</li>
+                                <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2022-2022</span><br>Designing Web/App interfaces at VU</li>
+                                <li><span>2022-2023</span><br>Create Responsive Web Applications its OWN</li>
+                                <li><span>1st July-30th SEP -2024</span><br>Internship at Ultra Codes (pvt) LTD for Build Web/Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2017</span><br>Matric Science (Quaid Public School)</li>
+                                <li><span>2019</span><br>F.S.C pre-medical (Punjab College Kasur)</li>
+                                <li><span>2021-Continue</span><br>BSCS (Virtual University of Pakistan)</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- --------------------------services section---------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Am a web designer is a professional who specializes in creating visually appealing and functional websites. Their role encompasses various aspects, including the layout, color scheme, typography, and overall aesthetic of a site.</p>
+                    <a href="https://www.simplilearn.com/what-is-web-designing-article#what_is_web_designing">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Am a UI/UX designer is a professional who specializes in creating user interfaces (UI) and enhancing user experiences (UX) for digital products, such as websites, mobile applications, and software.</p>
+                    <a href="https://www.behance.net/galleries/ui-ux/ui-ux">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>An app designer is a professional who specializes in creating the visual and interactive aspects of mobile applications for devices such as smartphones and tablets..</p>
+                    <a href="https://dribbble.com/tags/mobile_app_design">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------portfolio------------------- -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png" >
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://www.investopedia.com/terms/s/social-media.asp" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png" >
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://open.spotify.com/#login"  target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png" >
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects you to the talented people around the world.
+                            Download it from play store.
+                        </p>
+                        <a href="https://www.daraz.pk/" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        
+                    </div>
+                    </div>
+                   </div>
+                   <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+            <!-- --------------------contact---------------------- -->
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>shahidameen1275@gmail.com</p>
+                            <p><i class="fa-solid fa-square-phone"></i>0311-4446561</p>
+                            <div class="social-icons">
+                                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                
+                            </div>
+                            <a href="Professional CV Resume.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="text" name="name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="message" rows ="6" placeholder="Write Message here"></textarea>
+                                <BUtton type="submit" class="btn btn2">Submit</BUtton>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>copyright <i class="fa-regular fa-copyright"></i> Shahid, And Made <i class="fa-solid fa-heart"></i> with Shahid Ameen</p>
+                </div>
+            </div>
+
+           
+           
+            
+           
+            
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
