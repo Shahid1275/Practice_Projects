@@ -1,0 +1,117 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+/* Container styling */
+/* Container styling */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+.container h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.container h4 {
+  margin: 10px 0 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* Quantity container styling */
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+/* Decrement and increment buttons styling */
+.quantity_minus,
+.quantity_plus {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.quantity_minus:hover,
+.quantity_plus:hover {
+  background-color: #e0e0e0;
+  border-color: #ccc;
+}
+
+.quantity_minus:active,
+.quantity_plus:active {
+  background-color: #d0d0d0;
+  border-color: #bbb;
+}
+
+/* Input field styling */
+.quantity_input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin: 0 10px;
+  padding: 0;
+  outline: none;
+}
+
+/* Optional: Make sure the input field does not resize */
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
